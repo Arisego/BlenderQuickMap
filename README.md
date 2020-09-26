@@ -6,7 +6,7 @@ A simple blender addon helps retarget animation.
 
 The method used to retargeting animation in addon is shared by *Maciej Szcześnik* in Unity Connect article [Retargeting animations with Blender 2.80](https://connect.unity.com/p/retargeting-animations-with-blender-2-80). I made this plugin just to speed up the retargeting steps, so we can make things happen more quickly.
 
-This plugins helps to automatically generating and changing following chains , and provides save/load to save out retarget map config.
+This plugins helps to automatically generating and changing follow chains , and provides save/load to save out retarget map config.
 
 ## Concepts
 
