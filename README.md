@@ -4,7 +4,9 @@ A simple blender addon helps retarget animation.
 
 ## How it work
 
-The method used to retargeting animation in addon is shared by *Maciej Szcześnik* in Unity Connect article [Retargeting animations with Blender 2.80](https://connect.unity.com/p/retargeting-animations-with-blender-2-80). I made this plugin just to speed up the retargeting steps, so we can make things happen more quickly.
+The method used to retargeting animation in addon is shared by *Maciej Szcześnik* in Unity Connect article "Retargeting animations with Blender 2.80". I made this plugin just to speed up the retargeting steps, so we can make things happen more quickly.
+
+> As unity connect is gone, you may visit this [archived version](https://web.archive.org/web/20200812235638/https://connect.unity.com/p/retargeting-animations-with-blender-2-80) instead. It's an archive of the  [original link](https://connect.unity.com/p/retargeting-animations-with-blender-2-80).
 
 This plugins helps to automatically generating and changing follow chains , and provides save/load to save out retarget map config.
 
