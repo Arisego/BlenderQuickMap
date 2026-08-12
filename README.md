@@ -12,19 +12,19 @@ This plugins helps to automatically generating and changing follow chains , and 
 
 ## Concepts
 
-Some concept name differs from the origin article:
+Some concept names differ from the original article:
 
-* Source Armature: The armature you want to have animation on it
-* Target Armature: Animation is on this armature
-* Follower A: *Source Bone* will follow this object by constrain
-* Follower B: This object is parent of *Follower A*, and will follow *Target Bone*
+* Puppet Armature: The rig we wish to animate
+* Master Armature: The rig that's already animated
+* Follower A: *Puppet Bone* will follow this object by constrain
+* Follower B: This object is parent of *Follower A*, and will follow *Master Bone*
 
 The follow chain works like this:
 
-1. Animation moves bone in *Taret Armature*
-2. *Target Bone* in *Target Armature* will move *Follower B* 
+1. Animation moves bone in *Master Armature*
+2. *Master Bone* in *Master Armature* will move *Follower B*
 3. *Follower B* then moves *Follower A*
-4. *Follower A* then moves *Source Bone* in *Source Armature*
+4. *Follower A* then moves *Puppet Bone* in *Puppet Armature*
 
 ## Usage
 
